@@ -1,0 +1,41 @@
+.profile{
+    font-family: system-ui;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin: 100px auto;
+    height: 320px;
+    width: 440px;
+}
+.heading1{
+    font-weight: 400;
+    padding: 0px 20px;
+}
+
+.para1{
+    padding: 0px 20px;
+    color: rgb(90, 90, 90);
+}
+
+hr{
+    margin: 0px 0px;
+    border-color: lightgray;
+}
+
+.dp{
+    height: 75px;
+    width: 75px;
+    margin: 20px 30px;
+    border-radius: 50%;
+}
+
+.profile-links{
+    font-family: system-ui;
+    padding: 15px 20px;
+}
+
+.linkToProfile{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(0, 143, 252);
+}
+

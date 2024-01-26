@@ -1,0 +1,52 @@
+.subscription{
+    border: 1px lightgray solid;
+    border-radius: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 320px;
+    margin: 50px auto;
+    
+}
+
+h4{
+    padding: 20px 20px 10px 20px;
+    margin: 0px;
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.text{
+    margin: 0px;
+    padding: 5px 15px;
+    color: gray;
+}
+
+.google{
+    padding: 0px 15px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    font-weight: 500;
+}
+
+.logo{
+    width:100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.icon{
+    height: 14px;
+    width: 14px;
+    padding-right: 8px;
+}
+
+.details{
+    border: 1px solid lightgray;
+    margin: 20px 0px 30px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 149, 255);
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
