@@ -1,0 +1,76 @@
+@font-face {
+    font-family: monteserrat;
+    src: url(/Fonts/monteserrat.ttf);
+}
+body{
+    background-color: beige;
+}
+
+.card{
+    border: 3px solid lightgray;
+    width: 500px;
+    margin: 40px auto;
+    border-radius: 20px;
+    font-family: monteserrat;
+    background-color: rgb(246, 246, 246);
+}
+
+.cover{
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.bg{
+    width: 100%;
+    height: 250px; /* I had to apply height because of the dimension of image */
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.user{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 190px;
+    bottom: -40px;
+    border: 4px solid white;
+}
+
+.text{
+    text-align: center;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.role{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.org{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-decoration: 1px underline;
+}
+
+.view-profile{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 145, 255);
+}
+
+.rule{
+    margin-top: 50px;
+}

@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: monteserrat;
+    src: url(/Fonts/monteserrat.ttf);
+}
+.bg-img{
+    width: 1080px;
+    margin: 30px auto;
+    border-radius: 20px;
+    position: relative;
+    font-family: monteserrat;
+    
+}
+
+.backgr{
+    width: 100%;
+    border-radius: 20px;
+    /* position: relative; */
+}
+
+.explore{
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.details{
+    width: 1000px;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    left: 40px;
+    bottom: 300px;
+}
+
+.btn-explore{
+    position: absolute;
+    border: none;
+    border-radius: 60px;
+    padding: 16px 30px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    bottom: 150px;
+    left: 450px;
+}
