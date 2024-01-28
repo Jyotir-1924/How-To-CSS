@@ -1,0 +1,367 @@
+@font-face {
+    font-family: font1;
+    src: url(/Fonts/monteserrat.ttf);
+}
+
+body{
+    font-family: font1;
+}
+
+.welcome{
+    height: 60px;
+    background-color: rgb(236, 236, 236);
+    margin: -20px;
+    padding-right: 40px;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    text-decoration:  2px underline;
+}
+
+.learnMore{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.navbar{
+    margin: 20px -10px;
+    padding-left: 100px;
+    padding-right: 5px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoAirBnb{
+    height: 40px;
+    width: 130px;
+}
+
+.ctrbtn{
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(249, 249, 249);
+}
+
+.stays{
+    width: 80px;
+}
+
+.experiences{
+    width: 120px;
+}
+
+.onlineExperiences{
+    width: 170px;
+}
+
+.centerNav{
+    width: 400px;
+    display: flex;flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+
+.navRight{
+    height: 70px;
+    display: flex;flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+}
+
+.airYrHm{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: rgb(249, 249, 249);
+}
+
+.globe{
+    width: 60px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+    background-color: rgb(249, 249, 249);
+}
+
+.three-bar{
+    height: 20px;
+    width: 20px;
+}
+
+.auth{
+    padding-left: 10px;
+    padding-right: 12px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.dest{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.center-inp{
+    border: none;
+    border-radius: 50px;
+    width: 130px;
+    padding-left: 0px;
+    font-size: 15px;
+
+}
+ .center-btn{
+    border: none;
+    background-color: white;
+    border: 1px solid lightgray;
+    font-weight: 400;
+    padding-bottom: 10px;
+ }
+
+ .center-txt{
+    padding-left: 10px;
+    padding-bottom: 3px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.where{
+    width: 250px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.addGuest{
+    width: 180px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.addGuest-text{
+    padding-left: 18px;
+}
+.whereinp{
+    width: 220px;
+    padding-left: 10px;
+}
+.where-text{
+    padding-left: 13px;
+}
+.checkinp{
+    padding-left: 10px;
+}
+.checkoutinp{
+    padding-left: 10px;
+}
+.addGuestinp{
+    padding-left: 10px;
+}
+
+.arrow{
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(182, 182, 182);
+}
+.icondef{
+    width: 70px;
+}
+.catIcon{
+    height: 36px;
+    width: 36px;
+    padding: 0px 15px;
+}
+.icondesc{
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(127, 127, 127);
+    font-weight: 500;
+}
+
+.cat{
+    display: flex;
+    gap: 40px;
+}
+.bottom-bar{
+    margin-top: 40px;
+}
+.icons{
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.filter-icon{
+    height: 25px;
+}
+
+.filters{
+    padding: 0px 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.toggle-icon{
+    height: 25px;
+}
+
+.dispTaxes{
+    padding: 0px 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.btnFilterDisp{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bottom-bar{
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+
+.hotel{
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 246);
+    position: relative;
+}
+
+.image{
+    width: 100%;
+    position: relative;
+    border-radius: 30px;
+}
+
+.htlbtn{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+
+}
+
+.onImageIcon{
+    height: 20px;
+    width: 20px;
+}
+
+.heart-btn{
+    padding: 5px;
+    right: 20px;
+    top: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+.swipeNext-btn{
+    padding: 5px;
+    right: 20px;
+    top: 150px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+.htlname{
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: 1px underline;
+}
+
+.rtng-val{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.rating{
+    width: 55px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: center;
+}
+
+.info{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    align-items: center;
+}
+
+.htl{
+    margin: 0px;
+}
+.amount{
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Jyotir{
+    background-color: rgb(215, 215, 215);
+    height: 100px;
+    margin: -10px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+.n1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.des{
+    font-size: 20px;
+    font-weight: 500;
+}
+.cklnk{
+    text-decoration: 1px underline;
+    color: black;
+}
